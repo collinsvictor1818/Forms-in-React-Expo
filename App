@@ -1,0 +1,18 @@
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+
+import MainContainer from './app/MainNavigator'; 
+//import StyledTextInput from './app/components/Inputs/StyledTextInputs';
+import Home from './app/components/Home';
+//import LoginProvider from './app/context/LoginProvider';
+
+export default function App() {
+  return (
+    <MainContainer>
+      <NavigationContainer>
+        <Home/>
+      </NavigationContainer>
+    </MainContainer>
+  );
+}
+    
